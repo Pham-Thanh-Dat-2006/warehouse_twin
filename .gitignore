@@ -1,0 +1,24 @@
+# Downloaded third-party assets and external workspaces
+/assets/
+/apf_ws
+# Generated USD stages contain local asset paths; rebuild on the target machine
+/maps/*
+!/maps/README.md
+# Local state, credentials, caches and backups
+__pycache__/
+*.py[cod]
+*.bak
+*.log
+*.sqlite*
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+
+# Workstation file-move history
+/docs/reorganization.json

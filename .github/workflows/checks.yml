@@ -1,0 +1,20 @@
+name: Lightweight checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Python syntax
+        run: python -m compileall -q src web tools tests
+      - name: Shell syntax
+        run: find scripts legacy -name '*.sh' -exec bash -n {} +
+      - name: Factory cycle model
+        run: PYTHONPATH=src python tests/test_factory_cycle.py
+      - name: Dashboard accounting and HTTP
+        run: PYTHONPATH=src python tests/test_web.py

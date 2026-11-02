@@ -1,0 +1,22 @@
+{
+  "remote": {
+    "rack": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Industrial/Racks/RackLong_A3.usd",
+    "pallet": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Industrial/Pallets/Pallet_A1.usd",
+    "box": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Industrial/Containers/Cardboard/Cardbox_A3.usd",
+    "crane": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Assets/Warehouse/Equipment/Cranes/JPortableGantry_B/JPortableGantryCrane_B01_01.usd",
+    "forklift": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Assets/Warehouse/Equipment/Forklifts/Forklift_C/Forklift_C01_PR_V_NVD_01.usd",
+    "conveyor": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Assets/Warehouse/Equipment/Conveyors/ConveyorBelt_A/ConveyorBelt_A05_PR_NVD_01.usd",
+    "conveyor_packing": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Assets/Warehouse/Equipment/Conveyors/ConveyorBelt_A/ConveyorBelt_A61_PR_NVD_01.usd",
+    "fan": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Assets/Warehouse/Equipment/Fans/Drum_A/DrumFan_A01_01.usd",
+    "arm": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Robots/comau/n-220-27/n-220-27.usd",
+    "ridgeback": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Robots/Clearpath/RidgebackUr/ridgeback_ur5.usd",
+    "lidar": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.1/Isaac/Sensors/Slamtec/RPLIDAR_S2E/Slamtec_RPLIDAR_S2E.usd"
+  },
+  "local": {
+    "arm": "assets/nvidia_cache/Assets/Isaac/6.1/Isaac/Robots/comau/n-220-27/n-220-27.usd",
+    "worker": "assets/simready-assets-d24fd57e/raise_a3_ultra_t3d0/simready_usd/raise_a3_ultra_t3d0.usda",
+    "packing_table": "assets/simready-assets-653d91e1/table_deluxe_packing_a01/simready_usd/sm_table_deluxe_packing_a01_01.usd",
+    "entrance": "assets/simready-assets-653d91e1/structure_wall_entrance_a01/simready_usd/sm_structure_wall_entrance_a01_01.usd",
+    "wall_panel": "assets/simready-assets-653d91e1/structure_wall_straight_a01/simready_usd/sm_structure_wall_straight_a01_01.usd"
+  }
+}
